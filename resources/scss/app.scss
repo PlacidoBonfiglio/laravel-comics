@@ -1,2 +1,6 @@
 @use "~bootstrap/scss/bootstrap" as *;
 
+header {
+    height: 80px;
+    background-color: red;
+}
