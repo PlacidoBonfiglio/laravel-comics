@@ -1,7 +1,7 @@
 <header>
-    <div class="container h-100">
+    <div class="container" id="navbar">
         <div class="h-100 d-flex justify-content-center align-items-center">
-            <img src="../../../src/dc-logo.png" alt="dc-logo">
+            <img src="../../../../src/dc-logo.png" alt="dc-logo">
 
             <ul class="d-flex flex-wrap">
                 <li class="fw-bold">
@@ -41,6 +41,6 @@
     </div>
 
     <section id="jumbotron">
-
+        <img src="../../../../jumbotron.jpg" alt="jumbo-img">
     </section>
 </header>
