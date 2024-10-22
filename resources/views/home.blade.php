@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1>TITOLO</h1>
+        <h1 class="text-center">TITOLO</h1>
     </header>
 </body>
 </html>
