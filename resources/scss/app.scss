@@ -1,6 +1,24 @@
 @use "~bootstrap/scss/bootstrap" as *;
 
+img {
+    max-width: 100%;
+}
+
 header {
     height: 80px;
-    background-color: red;
+    background-color: white;
+
+    ul {
+        list-style-type: none;
+        margin-bottom: 0;
+
+        li {
+            margin-right: 20px;
+        }
+    }
+
+    #jumbotron {
+        height: 400px;
+        background-color: grey;
+    }
 }
