@@ -17,3 +17,8 @@ Route::get('/', function () {
     $comics = config("db");
     return view('pages.home', compact("comics"));
 });
+
+Route::get('/catalog/{id}', function (string $id) {
+    @dd($id);
+    return view('catalog.show');
+})->name("catalog") ;

@@ -164,7 +164,7 @@ footer {
         }
     }
 
-    // LINKS
+    // ! FOOTER LINKS
     #links {
         min-height: 150px;
         background-color: #303030;
@@ -185,6 +185,7 @@ footer {
                     border: 3px solid #0C7CEC;
                     margin-left: 20px;
                     text-decoration: none;
+                    margin: 0;
 
                     &:hover {
                         background-color: #535353;
