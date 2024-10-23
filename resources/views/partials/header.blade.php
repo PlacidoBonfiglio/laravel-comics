@@ -1,7 +1,7 @@
 <header>
     <div class="container" id="navbar">
         <div class="h-100 d-flex justify-content-center align-items-center">
-            <img src="../../../../src/dc-logo.png" alt="dc-logo">
+            <img src="{{ Vite::asset("resources/img/dc-logo.png") }}" alt="dc-logo" height="50">
 
             <ul class="d-flex flex-wrap">
                 <li class="fw-bold">
@@ -41,6 +41,6 @@
     </div>
 
     <section id="jumbotron">
-        <img src="../../../../jumbotron.jpg" alt="jumbo-img">
+        <img src="{{ Vite::asset("resources/img/jumbotron.jpg") }}" alt="jumbo-img">
     </section>
 </header>
