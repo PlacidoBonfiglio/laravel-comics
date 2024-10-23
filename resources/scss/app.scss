@@ -37,6 +37,21 @@ img {
     background-color: #1C1C1C;
 }
 
+.current-series {
+    position: relative;
+
+    p {
+        position: absolute;
+        left: 0;
+        top: -30px;
+        color: white;
+        background-color: #0C7CEC;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+}
+
 .comic-thumb {
     height: 200px;
     width: 200px;
@@ -55,6 +70,31 @@ img {
 
 .col p {
     margin-bottom: 60px;
+}
+
+.load-button {
+    justify-content: center;
+
+    button {
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 10px 60px;
+        background-color: #0C7CEC;
+        margin-bottom: 30px;
+
+        &:hover {
+            background-color: rgb(114, 187, 255);
+            cursor: pointer;
+        }
+    }
+}
+
+.main-navbar {
+    height: 200px;
+    background-color: #0C7CEC;
+    position: relative;
+    z-index: 1;
 }
 
 //! FOOTER
