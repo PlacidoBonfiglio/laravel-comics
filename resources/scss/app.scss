@@ -39,6 +39,124 @@ img {
 }
 
 .col {
-    height: 150px;
-    width: 150px;
+
+}
+
+//! FOOTER
+
+footer {
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+
+    // INFO
+    #info {
+        padding: 50px 20px;
+
+        .info-box {
+            flex-basis: 40%;
+
+            .cols {
+                width: 100%;
+
+                div{
+                    width: calc(100% / 3);
+
+
+                    h2 {
+                    color: white;
+                    margin-bottom: 20px;
+                    font-size: 1.3rem;
+                    }
+
+                    ul {
+                        list-style-type: none;
+                        padding: 0;
+                    }
+
+                    li:last-child {
+                    margin-bottom: 30px;
+                    }
+
+                    a {
+                    color: grey;
+                    line-height: 25px;
+                    font-size: 0.9rem;
+                    text-decoration: none;
+
+                        &:hover {
+                            color: white;
+                            border-bottom: 1px solid white;
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+        .logo-bg {
+            flex-basis: 60%;
+            justify-content: end;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: -150px;
+                right: -100px;
+                height: 650px;
+                padding-left: 100px;
+            }
+        }
+    }
+
+    // LINKS
+    #links {
+        min-height: 150px;
+        background-color: #303030;
+        position: relative;
+        z-index: 1;
+
+        .links-box {
+            height: 150px;
+            align-items: center;
+
+            .sign-up {
+                width: 50%;
+
+                a {
+                    font-weight: bold;
+                    color: white;
+                    padding: 20px;
+                    border: 3px solid #0C7CEC;
+                    margin-left: 20px;
+                    text-decoration: none;
+
+                    &:hover {
+                        background-color: #535353;
+                    }
+                }
+            }
+
+            // SOCIAL
+            .social {
+                width: 50%;
+                justify-content: end;
+
+                h2 {
+                    color: #0C7CEC;
+                    margin: 0;
+                }
+
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                }
+
+                li {
+                    margin-right: 20px;
+                }
+            }
+        }
+
+    }
 }
