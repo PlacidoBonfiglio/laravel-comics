@@ -18,7 +18,13 @@ Route::get('/', function () {
     return view('pages.home', compact("comics"));
 });
 
-Route::get('/catalog/{id}', function (string $id) {
-    @dd($id);
-    return view('catalog.show');
-})->name("catalog") ;
+Route::get('/catalog/{index}', function (string $index) {
+    $comicsCatalog = config("db");
+
+    if (isset( $comicsCatalog[$index] )) {
+        $comic = $comicsCatalog[$index];
+        return view('catalog.show', compact("comic"));
+    } else {
+        abort(404);
+    }
+})->name("comic.show");
